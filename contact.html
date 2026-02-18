@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- ===== BootStrap CDN ===== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- ===== Custome CSS ===== -->
+    <link rel="stylesheet" href="contact.css">
+    <!-- ===== Font awesome CDN ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- ===== SMALL HEADER ===== -->
+    <div class="small-header-container">
+        <!-- Left -->
+        <div class="left">
+            <p>Free shipping for standard order over $100 </p>
+        </div>
+        <!-- Right -->
+        <div class="right">
+            <ul>
+                <li>
+                    <p>Help & FAQs</p>
+                </li>
+                <li>
+                    <p>My Account</p>
+                </li>
+                <li>
+                    <p>EN</p>
+                </li>
+                <li>
+                    <p>USD</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html">COZA<span>STORE</span></a>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#" class="active">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Icons -->
+            <div class="nav-icons-humberger">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+
+                <!-- humberger -->
+                <div class="humberger">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                        <img src="./assets/homepage/humberger/humberger-icon.png" alt="">
+                    </button>
+
+                    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                        aria-labelledby="offcanvasTopLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasTopLabel">
+                                <div class="logo">
+                                    <a href="index.html">COZA<span>STORE</span></a>
+                                </div>
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="off-canvas-div-1">
+                                <p>Free shipping for standard order over $100 </p>
+                            </div>
+                            <div class="off-canvas-div-2">
+                                <ul>
+                                    <li>
+                                        <p>Help & FAQs</p>
+                                    </li>
+                                    <li>
+                                        <p>My Account</p>
+                                    </li>
+                                    <li>
+                                        <p>EN</p>
+                                    </li>
+                                    <li>
+                                        <p>USD</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="off-canvas-div-3">
+                                <nav>
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="#">Shop</a></li>
+                                        <li><a href="#">Features</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="#"" class="active"">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+        <!-- ===== CONTACT BANNER ===== -->
+        <section class="contact-banner">
+            <h2>Contact</h2>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section class="contact-section">
+            <div class="contact-container">
+
+                <!-- Left: Contact Form -->
+                <div class="contact-form-box">
+                    <h4>Send Us A Message</h4>
+
+                    <form>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email Address">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea placeholder="How Can We Help?"></textarea>
+                        </div>
+
+                        <button type="submit" class="send-btn">
+                            SUBMIT
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Right: Contact Info -->
+                <div class="contact-info-box">
+                    <div class="info-item">
+                        <h4>Address</h4>
+                        <p>Coza Store Center 8th floor, 379 Hudson St, New York, NY 10018 US</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>Lets Talk</h4>
+                        <p>+1 800 123 6879</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h4>Sale Support</h4>
+                        <p>contact@example.com</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="map-section">
+            <iframe src="https://www.google.com/maps?q=379%20Hudson%20St%20New%20York&output=embed" allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </section>
+
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <!-- FOOTER TOP -->
+        <div class="footer-container">
+            <!-- Column 1: Categories -->
+            <div class="footer-col">
+                <h4>CATEGORIES</h4>
+                <ul>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Watches</a></li>
+                </ul>
+            </div>
+            <!-- Column 2: Help -->
+            <div class="footer-col">
+                <h4>HELP</h4>
+                <ul>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <!-- Column 3: Get in touch -->
+            <div class="footer-col">
+                <h4>GET IN TOUCH</h4>
+                <p>Any question? Let us know in store at 8th floor,379 Hudson St New York, NY 10018 or call us on(+1)96
+                    716 687</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <!-- Column 4: Newsletter -->
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <form>
+                    <div class="form-input">
+                        <input type="email" placeholder="email@gmail.com">
+                    </div>
+
+                    <div class="form-btn">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+            <div class="debit-credit-card">
+                <img src="./assets/homepage/footer debit card/icon-pay-01.png" alt="">
+                <img src="./assets/homepage/footer debit card/icon-pay-02.png" alt="">
+                <img src="./assets/homepage/footer debit card/icon-pay-03.png" alt="">
+                <img src="./assets/homepage/footer debit card/icon-pay-04.png" alt="">
+                <img src="./assets/homepage/footer debit card/icon-pay-05.png" alt="">
+            </div>
+            <p> Copyright &copy; 2025 Cozastore .All rights reserved.This template is made with heart by
+                <span>colorlib</span>
+            </p>
+        </div>
+    </footer>
+    <!-- ===== Bootstrap JS ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <!-- ===== JS SCRIPT ===== -->
+   <script src="contact.js"></script>
+</body>
